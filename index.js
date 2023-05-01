@@ -60,7 +60,7 @@ var data = [
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+
 d3.csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv", function(error, data)
 {
 if(error){console.log("Error al leer el fichero titanic.csv");
